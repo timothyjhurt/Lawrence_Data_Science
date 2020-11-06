@@ -29,7 +29,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            Data Science Apps
+            Data Science for All
             
           </Link>
           <div className='menu-icon' onClick={handleClick}>

@@ -10,13 +10,13 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Information about Experience 1'
+              src='images/img-pose.png'
+              text='Strike a pose, and the computer will learn from you!'
               label='Fun'
               path='/Experience 1'
             />
             <CardItem
-              src='images/img-2.jpg'
+              src='images/img-9.jpg'
               text='Information about Experience 2'
               label='More Fun'
               path='/Experience 2'
