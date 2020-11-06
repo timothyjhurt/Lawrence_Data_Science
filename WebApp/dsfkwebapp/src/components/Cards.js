@@ -13,13 +13,13 @@ function Cards() {
               src='images/img-pose.png'
               text='Strike a pose, and the computer will learn from you!'
               label='Fun'
-              path='/Experience 1'
+              path='/Experience1'
             />
             <CardItem
               src='images/img-9.jpg'
               text='Information about Experience 2'
               label='More Fun'
-              path='/Experience 2'
+              path='/Experience2'
             />
           </ul>
           {/* <ul className='cards__items'>
