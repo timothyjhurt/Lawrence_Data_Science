@@ -2,11 +2,11 @@ import React from 'react';
 import '../../App.css';
 // import * as tm  from '@teachablemachine/image';
 // import * as predictionEl  from '@teachablemachine/image';
-// import * as  inferenceCamera from '@teachablemachine/image';
-//import * as tm from '@teachablemachine/image'
+// import * as inferenceCamera from '@teachablemachine/image';
+// import * as tm from '@teachablemachine/image';
 
 export default function Products() {
-  
+
 // const myWizard = new tm.Wizard({
 //   // Define your classes
 //     classes: [
@@ -41,8 +41,6 @@ export default function Products() {
 //   });
 //   document.body.appendChild(myWizard.buttonElement);
 //   const myCamera = myWizard.createInferenceCamera();
-//   document.body.appendChild(inferenceCamera); 
-return <h1 className='Experience2'> Experience2 </h1>;
-
-
+//   document.body.appendChild(inferenceCamera);
+  return <h1 className='Experience1'> Experience1 </h1>;
 }

@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Switch, Route } from
 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home'
-import Experience1 from "./components/pages/Products";
+import Experience1 from "./components/pages/Experience1";
 import Experience2 from './components/pages/Experience2'
 function App() {
   return (
