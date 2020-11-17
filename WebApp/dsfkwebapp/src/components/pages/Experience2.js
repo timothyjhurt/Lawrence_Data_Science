@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import '../../App.css';
 
 export default function Products() {
@@ -35,10 +36,12 @@ export default function Products() {
     }
   });
 
+  return (<div><h1 className='Experience2'>Experience2</h1><teachable-button onClick={myWizard.open}></teachable-button></div>)
 
-    document.body.appendChild(myWizard.buttonElement);
-    const myCamera = myWizard.createInferenceCamera();
-    document.body.appendChild(myCamera);
 
-  return <h1 className='Experience2'> Experience2 </h1>;
 }
+// <teachable-button>{console.log(myWizard)}</teachable-button>
+// <div>
+//   <h1 className='Experience2'> Experience2 </h1>
+//   <teachable-button></teachable-button>
+// </div>);
