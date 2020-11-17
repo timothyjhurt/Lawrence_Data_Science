@@ -24,6 +24,8 @@ function HeroSection() {
           WATCH TRAILER <i className='far fa-play-circle' />
         </Button> */
       /* </div> */}
+      
+      
     </div>
   );
 }

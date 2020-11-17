@@ -1,6 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../../App.css';
+import './Experience2.css';
+import { Button } from '../Button';
+//import HeroSection from '../HeroSection';
+import '../Cards.css';
+import CardItem from '../CardItem';
+
+
+
 
 export default function Products() {
   const myWizard = new window.tm.Wizard({
@@ -35,5 +43,64 @@ export default function Products() {
       console.log("train complete");
     }
   });
-  return (<div><h1 className='Experience2'>Experience2</h1><teachable-button onClick={myWizard.open}></teachable-button></div>)
+
+  function Cards() {
+    return (
+      <div className='cards' onClick= {myWizard.open}>
+        <h1> </h1>
+        <div className='cards__container'>
+          <div className='cards__wrapper'>
+            <ul className='cards__items'>
+              <CardItem 
+                src ='images/tm2.gif'
+                text='Try the Google Teachable Machine!'
+              />
+            </ul>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // function HeroSection() {
+  //   return (
+  //     <div className='hero-container'>
+  //       <h1>CHOOSE YOUR EXPERIENCE</h1>
+  //       {/* <div className='hero-btns'>
+  //         <Button
+  //           className='btns'
+  //           buttonStyle='btn--outline'
+  //           buttonSize='btn--large'
+  //         >
+  //           GET STARTED
+  //         </Button>
+  //         <Button
+  //           className='btns'
+  //           buttonStyle='btn--primary'
+  //           buttonSize='btn--large'
+  //           onClick={console.log('hey')}
+  //         >
+  //           WATCH TRAILER <i className='far fa-play-circle' />
+  //         </Button> */
+  //       /* </div> */}
+        
+        
+  //     </div>
+  //   );
+  // }
+
+
+  return (
+  // <div>
+  //    <teachable-button onClick={myWizard.open}> </teachable-button>
+     <div>
+       
+      <Cards> 
+      </Cards>
+      <h2> The paragraph goes here </h2>
+     </div>
+
+
+ )
+
 }

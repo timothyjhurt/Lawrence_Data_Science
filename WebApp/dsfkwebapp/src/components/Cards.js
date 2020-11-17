@@ -20,6 +20,7 @@ function Cards() {
               text='Information about Experience 2'
               label='More Fun'
               path='/Experience2'
+              
             />
 
           </ul>
