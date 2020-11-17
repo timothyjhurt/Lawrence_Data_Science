@@ -35,13 +35,5 @@ export default function Products() {
       console.log("train complete");
     }
   });
-
   return (<div><h1 className='Experience2'>Experience2</h1><teachable-button onClick={myWizard.open}></teachable-button></div>)
-
-
 }
-// <teachable-button>{console.log(myWizard)}</teachable-button>
-// <div>
-//   <h1 className='Experience2'> Experience2 </h1>
-//   <teachable-button></teachable-button>
-// </div>);
