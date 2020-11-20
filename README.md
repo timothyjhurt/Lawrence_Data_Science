@@ -13,4 +13,4 @@ As of right now, only one experience, i.e., the google teachable machine has bee
 
 ## Developed with love by
 Tim Hurt, Inola Cohen, Vihaan Manchanda
-[a link] (https://github.com/)
+<a href = https://github.com/> vihaan </a>
