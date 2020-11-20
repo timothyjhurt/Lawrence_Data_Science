@@ -13,6 +13,6 @@ As of right now, only one experience, i.e., the google teachable machine has bee
 
 ## Developed with &hearts; by
 <a href = https://github.com/timothyjhurt> Tim Hurt, </a>
-<a href = https://github.com/Vihaan8> Vihaan Manchanda </a>
-<a href = https://github.com/inolacohen> Inola Cohen, </a>
+<a href = https://github.com/Vihaan8> Vihaan Manchanda, </a>
+<a href = https://github.com/inolacohen> Inola Cohen </a>
 
