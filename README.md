@@ -11,6 +11,7 @@ One of our team members had to leave the project in the first week of the semest
 ## What's next for Data Science for all
 As of right now, only one experience, i.e., the google teachable machine has been implemented. In the future, we will add more experiences and improve the UI. We are just getting started! :D
 
-## Developed with love by
-Tim Hurt, Inola Cohen, Vihaan Manchanda
-<a href = https://github.com/> vihaan </a>
+## Developed with &hearts; by
+<a href = https://github.com/> Tim Hurt, </a>
+<a href = https://github.com/> Inola Cohen, </a>
+<a href = https://github.com/Vihaan8> Vihaan Manchanda </a>
