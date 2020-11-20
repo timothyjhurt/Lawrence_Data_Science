@@ -12,6 +12,7 @@ One of our team members had to leave the project in the first week of the semest
 As of right now, only one experience, i.e., the google teachable machine has been implemented. In the future, we will add more experiences and improve the UI. We are just getting started! :D
 
 ## Developed with &hearts; by
-<a href = https://github.com/> Tim Hurt, </a>
-<a href = https://github.com/> Inola Cohen, </a>
+<a href = https://github.com/timothyjhurt> Tim Hurt, </a>
 <a href = https://github.com/Vihaan8> Vihaan Manchanda </a>
+<a href = https://github.com/inolacohen> Inola Cohen, </a>
+
