@@ -1,4 +1,4 @@
-# Lawrence_Data_Science
+## Lawrence Data Science
  Applications for The Lawrence around Data Science
 
 ## About the project
