@@ -7,18 +7,17 @@ function Cards() {
   const fade = useSpring({
     from: {opacity: 0, fontSize: '2rem'},
     to: {opacity: 1, fontSize: '3em' },
-    
 
-  }) 
+
+  })
   return (
-    
+
     <animated.div style={fade} className='cards'>
       <h1>Choose your Experience</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              
               src='images/placeholder2.gif'
               text='Information about Experience 1'
               label='Fun'
@@ -29,13 +28,13 @@ function Cards() {
               text='Strike a pose, and the computer will learn from you!'
               path='/Experience2'
               label='More Fun'
-              
-              
+
+
             />
 
           </ul>
 
-          
+
           {/* <ul className='cards__items'>
             <CardItem
               src='images/img-3.jpg'

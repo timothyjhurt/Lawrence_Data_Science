@@ -6,7 +6,7 @@ import { Button } from '../Button';
 //import HeroSection from '../HeroSection';
 import '../Cards.css';
 import CardItem from '../CardItem';
-
+import Footer2 from '../Footer';
 
 
 
@@ -46,19 +46,26 @@ export default function Products() {
 
   function Cards() {
     return (
+      <>
       <div className='cards' onClick= {myWizard.open}>
-        <h1> </h1>
         <div className='cards__container'>
+
           <div className='cards__wrapper'>
             <ul className='cards__items'>
-              <CardItem 
+              <CardItem
                 src ='images/tm2.gif'
-                text='Try the Google Teachable Machine!'
+                text="Try Google's Teachable Machine!"
+                path='/Experience2'
               />
             </ul>
           </div>
+<p>How is it going? Lorem ipsm How is it going? Lorem ipsm How is it going? Lorem ipsm How is it going? Lorem ipsm How is it going? Lorem ipsm</p>
         </div>
+
       </div>
+
+      <Footer2/>
+      </>
     );
   }
 
@@ -83,8 +90,8 @@ export default function Products() {
   //           WATCH TRAILER <i className='far fa-play-circle' />
   //         </Button> */
   //       /* </div> */}
-        
-        
+
+
   //     </div>
   //   );
   // }
@@ -94,10 +101,10 @@ export default function Products() {
   // <div>
   //    <teachable-button onClick={myWizard.open}> </teachable-button>
      <div>
-       
-      <Cards> 
+
+      <Cards>
       </Cards>
-      
+
      </div>
 
 
