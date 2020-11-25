@@ -1,25 +1,35 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import {useSpring, useTransition, animated} from 'react-spring'
 
 function Cards() {
+  const fade = useSpring({
+    from: {opacity: 0, fontSize: '2rem'},
+    to: {opacity: 1, fontSize: '3em' },
+    
+
+  }) 
   return (
-    <div className='cards'>
+    
+    <animated.div style={fade} className='cards'>
       <h1>Choose your Experience</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-pose.png'
-              text='Strike a pose, and the computer will learn from you!'
+              
+              src='images/placeholder2.gif'
+              text='Information about Experience 1'
               label='Fun'
               path='/Experience1'
             />
             <CardItem
-              src='images/img-9.jpg'
-              text='Information about Experience 2'
-              label='More Fun'
+              src='images/tm2.gif'
+              text='Strike a pose, and the computer will learn from you!'
               path='/Experience2'
+              label='More Fun'
+              
               
             />
 
@@ -48,7 +58,7 @@ function Cards() {
           </ul> */}
         </div>
       </div>
-    </div>
+    </animated.div>
   );
 }
 

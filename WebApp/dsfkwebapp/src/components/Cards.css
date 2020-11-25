@@ -1,10 +1,12 @@
 .cards {
     padding: 4rem;
-    background: white;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-bottom: 0 ; 
   }
   
   h1 {
     text-align: center;
+    color: white;
   }
   
   .cards__container {
@@ -94,7 +96,7 @@
   }
   
   .cards__item__text {
-    color: #252e48;
+    color: white;
     font-size: 18px;
     line-height: 24px;
   }

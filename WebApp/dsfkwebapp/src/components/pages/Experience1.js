@@ -1,14 +1,16 @@
 import React from 'react';
 import '../../App.css';
+import {useSpring, useTransition, animated} from 'react-spring'
+
 
 export default function Products() {
-  return (
-    <>
-  <p class='layer'> I'm gonna move really slow! </p>
-  <p2 class='layer' data-params='30,500,10000'> I'm gonna move really slow! </p2>
- 
-  
-  </>
-  )
+  const fade = useSpring({
+    from: {opacity: 0, fontSize: '2rem', color: 'tomato'},
+    to: {opacity: 1, color: 'green' , fontSize: '20em' },
+    
+
+  })   
+    
+    return <animated.div style={fade}>I will fade</animated.div>
 
 }
