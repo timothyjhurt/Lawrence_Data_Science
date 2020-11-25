@@ -1,13 +1,13 @@
 .footer-container {
-    background-color: #242424;
-    padding: 4rem 0 2rem 0;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    padding: 0.5em 0 0.5em 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   
-  .footer-subscription {
+  /* .footer-subscription {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,22 +17,22 @@
     margin-bottom: 24px;
     padding: 24px;
     color: #fff;
-  }
+  } */
   
   .footer-subscription > p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
   }
   
-  .footer-subscription-heading {
+  /* .footer-subscription-heading {
     margin-bottom: 24px;
     font-size: 24px;
-  }
+  } */
   
-  .footer-subscription-text {
+  /* .footer-subscription-text {
     margin-bottom: 24px;
     font-size: 20px;
-  }
+  } */
   
   .footer-input {
     padding: 8px 20px;

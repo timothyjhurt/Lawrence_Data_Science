@@ -5,6 +5,8 @@
   }
   
   h1 {
+    display: flex;
+    flex-flow: column;
     text-align: center;
     color: white;
   }

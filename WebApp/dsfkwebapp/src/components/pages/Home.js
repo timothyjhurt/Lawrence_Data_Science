@@ -4,8 +4,7 @@ import HeroSection from '../HeroSection';
 import Footer from '../Footer';
 import Cards from '../Cards';
 import {useSpring, animated} from 'react-spring'
-
-//import Footer from '../Footer';
+import Footer2 from '../Footer';
 import './Home.css';
 
 function Home() {
@@ -14,9 +13,9 @@ function Home() {
 
  <>
       <Cards/>
-      {/* <div className='home'>
-    </div> */}
-    </>
+      <Footer2/>
+ </>
+   
 
     );
   }
