@@ -6,14 +6,14 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
+    
         {/* <p className='footer-subscription-heading'>
           Join the Adventure newsletter to receive our best vacation deals
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
         </p> */}
-        <div className='input-areas'>
+        {/* <div className='input-areas'>
           <form>
             <input
               className='footer-input'
@@ -24,7 +24,7 @@ function Footer() {
             <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
         </div>
-      </section>
+      </section> */}
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           {/* <div class='footer-link-items'>
@@ -35,13 +35,13 @@ function Footer() {
             <Link to='/'>Investors</Link>
             <Link to='/'>Terms of Service</Link>
           </div> */}
-          <div class='footer-link-items'>
+          {/* <div class='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to='/'>Contact</Link>
             <Link to='/'>Support</Link>
             <Link to='/'>Destinations</Link>
             <Link to='/'>Sponsorships</Link>
-          </div>
+          </div> */}
         </div>
         {/* <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
@@ -65,7 +65,7 @@ function Footer() {
           <div class='footer-logo'>
             <h1 className='social-logo'>
               Made with &hearts; by:  
-              <a href= "https://github.com/googlecreativelab/teachable-machine-v1" target = '_blank' >  Test1 </a>    
+              <a href= "https://github.com/googlecreativelab/teachable-machine-v1" target = '_blank' > Tim, Vihaan & Inola </a>    
             </h1>
             
            

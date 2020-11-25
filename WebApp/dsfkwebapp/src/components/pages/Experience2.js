@@ -97,7 +97,7 @@ export default function Products() {
        
       <Cards> 
       </Cards>
-      <h2> The paragraph goes here </h2>
+      
      </div>
 
 
