@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
   }
-  
+ 
   /* .footer-subscription {
     display: flex;
     flex-direction: column;
@@ -123,10 +123,10 @@
   .social-logo {
     color: #fff;
     justify-self: start;
-    margin-left: 20px;
+    margin-left: 10 px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1rem;
     display: flex;
     align-items: center;
     margin-bottom: 16px;

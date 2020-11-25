@@ -64,8 +64,8 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <h1 className='social-logo'>
-              Made with &hearts; by:  
-              <a href= "https://github.com/googlecreativelab/teachable-machine-v1" target = '_blank' > Tim, Vihaan & Inola </a>    
+              Made with &hearts; by: Tim, Vihaan and Inola
+              {/* <a href= "https://github.com/googlecreativelab/teachable-machine-v1" target = '_blank' > Tim, Vihaan & Inola </a>     */}
             </h1>
             
            

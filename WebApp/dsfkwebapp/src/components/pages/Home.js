@@ -8,15 +8,22 @@ import Footer2 from '../Footer';
 import './Home.css';
 
 function Home() {
-  const props = useSpring({opacity: 1, from: {opacity: 0}})
+  const fade = useSpring({
+    from: {opacity: 0, fontSize: '2rem' },
+    to: {opacity: 1, fontSize: '3em' },
+    
+
+  }) 
     return (
+<>
+ <animated.div style = {fade}>
 
- <>
       <Cards/>
-      <Footer2/>
- </>
+    
+ </animated.div>
    
-
+   <Footer2/>
+   </>
     );
   }
   
