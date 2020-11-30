@@ -59,7 +59,7 @@ export default function Products() {
               />
             </ul>
           </div>
-<p>How is it going? Lorem ipsm How is it going? Lorem ipsm How is it going? Lorem ipsm How is it going? Lorem ipsm How is it going? Lorem ipsm</p>
+         <p>How is it going? Lorem ipsm How is it going? Lorem ipsm How is it going? Lorem ipsm How is it going? Lorem ipsm How is it going? Lorem ipsm</p>
         </div>
 
       </div>
