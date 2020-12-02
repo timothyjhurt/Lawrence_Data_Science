@@ -16,15 +16,23 @@ export default function Products() {
     classes: [
       {
         name: "Hand Up",
-        title: "Record “Hand Up” examples.",
-        description:
-          "Add examples of what you want to trigger your “Hand Up” state. This can be anything you want, like holding up your hand or an object."
+        title: "Raise your Hand",
+        description1:
+          "Raise one of your hands and click the “Record 2 Seconds” button.",
+        description2:
+          "Wave your raised hand around until the recording has finished.",
+        description3:
+          "Then, press “Next”"
       },
       {
         name: "Hand Down",
-        title: "Record “Hand Down” examples.",
-        description:
-          "Add examples of what you want to trigger your “Hand Down” state. For example, without your hand or object."
+        title: "Put your Hand down",
+        description1:
+          "Put your hands down and click the “Record 2 Seconds” button.",
+        description2:
+          "Move around until the recording has finished (without raising your hand).",
+        description3:
+          "Then, press “Next”"
       }
     ],
     onLoad: () => {
@@ -44,22 +52,31 @@ export default function Products() {
     }
   });
 
+
   function Cards() {
     return (
       <>
-      <div className='cards' onClick= {myWizard.open}>
+      <div className='cards'>
         <div className='cards__container'>
-
+        <p>Have you ever wanted to train your computer? Now's your chance!<br/>Click below to "Try Google's Teachable Machine" so that you can teach your computer to recognize when you have raised your hand or put your hand down.</p>
           <div className='cards__wrapper'>
             <ul className='cards__items'>
               <CardItem
+                label="Try me!"
                 src ='images/tm2.gif'
                 text="Try Google's Teachable Machine!"
                 path='/Experience2'
+                onClick={myWizard.open}
               />
             </ul>
           </div>
-         <p>How is it going? Lorem ipsm How is it going? Lorem ipsm How is it going? Lorem ipsm How is it going? Lorem ipsm How is it going? Lorem ipsm</p>
+         <p>This type of experience is called "Machine Learning." If you want to learn more about machine learning, here are some other resources you can go explore:</p>
+          <ul>
+            <li><a href="https://teachablemachine.withgoogle.com/">Teachable Machine</a></li>
+            <li><a href="https://experiments.withgoogle.com/collection/ai">AI Experiments</a></li>
+            <li><a href="http://nvidia-research-mingyuliu.com/gaugan/">Draw with the Help of AI</a></li>
+            <li><a href="https://quickdraw.withgoogle.com/">Play Pictionary with AI</a></li>
+          </ul>
         </div>
 
       </div>
