@@ -33,7 +33,7 @@ export default function Products() {
 
     <>
   <animated.div className="script-box" style={props} />
-  <p> vihaan </p>
+
   </>
   );
 

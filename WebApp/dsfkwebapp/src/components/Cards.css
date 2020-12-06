@@ -18,15 +18,20 @@
     max-width: 1120px;
     width: 90%;
     margin: 0 auto;
+    color: white;
+    
+   
   }
   
   .cards__wrapper {
     position: relative;
     margin: 50px 0 45px;
+    
   }
   
   .cards__items {
     margin-bottom: 24px;
+    
   }
   
   .cards__item {
@@ -45,6 +50,7 @@
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
     overflow: hidden;
+    
     text-decoration: none;
   }
   
@@ -72,6 +78,7 @@
     color: #fff;
     background-color: #1f98f4;
     box-sizing: border-box;
+    
   }
   
   .cards__item__img {
@@ -101,6 +108,7 @@
     color: white;
     font-size: 18px;
     line-height: 24px;
+    
   }
   
   @media only screen and (min-width: 1200px) {

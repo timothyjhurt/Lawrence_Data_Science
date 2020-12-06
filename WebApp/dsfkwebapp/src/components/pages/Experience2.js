@@ -85,9 +85,9 @@ export default function Products() {
             </ul>
           </div>
          <p>This type of experience is called "Machine Learning." If you want to learn more about machine learning, here are some other resources you can go explore: </p> <br/>
-          <ul>
+          <ul> 
             <li>  {button && <Button buttonStyle='btn--outline'> <a href="https://teachablemachine.withgoogle.com/">Teachable Machine</a>  </Button>} </li> <br/>
-            <li> {button && <Button buttonStyle='btn--outline'> AI Experiments  </Button>} </li> <br/>
+            <li> {button && <Button buttonStyle='btn--outline'> AI Experiments </Button>} </li> <br/>
             <li> {button && <Button buttonStyle='btn--outline'>Draw with the Help of AI</Button>} </li> <br/>
             <li> {button && <Button buttonStyle='btn--outline'>Play Pictionary with AI</Button>} </li>
             {/* <li><a href="https://teachablemachine.withgoogle.com/">Teachable Machine</a></li>
